@@ -1,3 +1,5 @@
+# Vanilla Counter
+
 ## What's this
 
 ![Happy Chinese New Year!](icon.png)
