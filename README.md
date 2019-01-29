@@ -21,7 +21,7 @@ A simple Chrome extension written with Vanilla JS (ES5). No polyfill required:ta
 ### Load script
 
 1. Load script via local source, instead of inline `<script></script>` code blocks.
-2. Load script with `async` and `defer`, so that it will be executed after DOM elements are ready.
+2. Load script with `defer`, so that it will be executed after DOM elements are parsed.
 
 ### `manifest.json`
 
