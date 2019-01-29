@@ -1,6 +1,6 @@
-# ![Happy Chinese New Year!](icon.png)
-
 ## What's this
+
+![Happy Chinese New Year!](icon.png)
 
 A simple Chrome extension written with Vanilla JS (ES5). No polyfill required:tada:
 
@@ -23,7 +23,7 @@ A simple Chrome extension written with Vanilla JS (ES5). No polyfill required:ta
 
 ### `manifest.json`
 
-1. `name`: Name of the extension
+1. `name`: Name of the extension
 2. `version`: Version number of the extension
 3. `manifest_version`: Syntax version of `manifest.json`
 4. `browser_action`:
