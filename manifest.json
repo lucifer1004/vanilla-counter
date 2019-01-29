@@ -1,10 +1,22 @@
 {
-  "name": "vanilla-counter",
-  "version": "1.0",
   "manifest_version": 2,
+  "name": "Vanilla Counter",
+  "description": "A plain text description",
+  "version": "1.0",
+  "author": "Gabriel Wu <https://github.com/lucifer1004>",
+  "icons": {
+    "32": "icon32.png",
+    "64": "icon64.png",
+    "128": "icon128.png"
+  },
   "browser_action": {
-    "default_popup": "index.html",
-    "default_icon": "icon.png"
+    "default_icon": {
+      "32": "icon32.png",
+      "64": "icon64.png",
+      "128": "icon128.png"
+    },
+    "default_title": "Happy Chinese New Year",
+    "default_popup": "index.html" 
   },
   "content_scripts": [{
     "js": ["index.js"],
