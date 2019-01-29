@@ -1,0 +1,13 @@
+{
+  "name": "vanilla-counter",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [{
+    "js": ["index.js"],
+    "matches": ["<all_urls>"]
+   }]
+}
